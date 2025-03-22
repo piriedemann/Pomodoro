@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦊</text></svg>">
+    <title>Pomodoro Animal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-container">
+            <!-- Animales decorativos -->
+            <div class="animal fox">🦊</div>
+            <div class="animal owl">🦉</div>
+            <div class="animal rabbit">🐰</div>
+
+            <h1>Pomodoro Animal</h1>
+            
+            <div class="mode-indicator">
+                <span class="mode-text">Tiempo de Trabajo</span>
+            </div>
+
+            <div class="timer-display">
+                <span class="minutes">25</span>
+                <span class="separator">:</span>
+                <span class="seconds">00</span>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="btn">
+                    <span class="button-icon">🦁</span>
+                    Iniciar
+                </button>
+                <button id="resetBtn" class="btn">
+                    <span class="button-icon">🦒</span>
+                    Reiniciar
+                </button>
+                <button id="modeBtn" class="btn">
+                    <span class="button-icon">🦥</span>
+                    Descansar
+                </button>
+            </div>
+        </div>
+
+        <!-- Nubes -->
+        <div class="clouds">
+            <span class="cloud">☁️</span>
+            <span class="cloud">☁️</span>
+            <span class="cloud">☁️</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
